@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <PackageIcon></PackageIcon>
+    <ApplicationIcon>Media\BAR_Janus.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Media\BAR_Janus.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Media\BAR_Janus.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="UnitLists\ArmadaUnits.json" />
+    <EmbeddedResource Include="UnitLists\CortexUnits.json" />
+    <EmbeddedResource Include="UnitLists\LegionUnits.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Media\UnitIMGNotFound.jpg" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
+</Project>

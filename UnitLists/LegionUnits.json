@@ -1,0 +1,740 @@
+{
+  "Bots": [
+    {
+      "Tier_1": [
+        {
+          "UnitName": "Goblin",
+          "UnitDescription": "Light Skirmish Bot",
+          "Building": "Legion Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c0701e536ba745d9eca4_leggob.webp"
+        },
+        {
+          "UnitName": "Satyr",
+          "UnitDescription": "Light Plasma Bot",
+          "Building": "Legion Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c1281cd6090a6f76e096_leglob.webp"
+        },
+        {
+          "UnitName": "Legion Construction Bot",
+          "UnitDescription": "Tech 1 Constructor",
+          "Building": "Legion Bot Lab",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bf1d9bc1b5f886aec7e8_legck.webp"
+        },
+        {
+          "UnitName": "Toxotai",
+          "UnitDescription": "Amphibious Anti-Air Bot",
+          "Building": "Legion Bot Lab | Amphibious Complex",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bc5aebd49e0bfbac1e3b_legaabot.webp"
+        },
+        {
+          "UnitName": "Zagreus",
+          "UnitDescription": "Stealthy Resurrection / Repair / Reclaim Bot",
+          "Building": "Legion Bot Lab",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c28360e0d9745e5e1b9d_legrezbot.webp"
+        },
+        {
+          "UnitName": "Phobos",
+          "UnitDescription": "Fast Assault Bot",
+          "Building": "Legion Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bf005176aa15f1993714_legcen.webp"
+        },
+        {
+          "UnitName": "Ballista",
+          "UnitDescription": "Medium Rocket Bot",
+          "Building": "Legion Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bec90df2448d1a96ba85_legbal.webp"
+        },
+        {
+          "UnitName": "Karkinos",
+          "UnitDescription": "Medium Dual-Weapon Infantry Bot",
+          "Building": "Legion Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c100ae1f0fa34439baac_legkark.webp"
+        }
+      ]
+    },
+    {
+      "Tier_2": [
+        {
+          "UnitName": "Snapper",
+          "UnitDescription": "Amphibious Screwdrive Bomb",
+          "Building": "Legion Advanced Bot Lab",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c2cd156b41059c07597a_legsnapper.webp"
+        },
+        {
+          "UnitName": "Tiresias",
+          "UnitDescription": "Mobile Jammer Bot",
+          "Building": "Legion Advanced Bot Lab",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bd23ebd49e0bfbac37e1_legajamk.webp"
+        },
+        {
+          "UnitName": "Euclid",
+          "UnitDescription": "Mobile Radar Bot",
+          "Building": "Legion Advanced Bot Lab",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2e291c0cd6365fbf165cd_legaradk.webp"
+        },
+        {
+          "UnitName": "Eidolon",
+          "UnitDescription": "Stealthy Invisible Spy Bot",
+          "Building": "Legion Advanced Bot Lab",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2d50fbdda584ba02f932d_legaspy.webp"
+        },
+        {
+          "UnitName": "Infestor",
+          "UnitDescription": "Infesting All-Terrain Spider Assault Bot. Can repair, reclaim and build copies of itself",
+          "Building": "Legion Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c0cf7be5429dfd202a22_leginfestor.webp"
+        },
+        {
+          "UnitName": "Proteus",
+          "UnitDescription": "All-Terrain Combat Engineer",
+          "Building": "Legion Advanced Bot Lab",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bc83100976329f12e9a1_legaceb.webp"
+        },
+        {
+          "UnitName": "Hoplite",
+          "UnitDescription": "Fast Raider Bot",
+          "Building": "Legion Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c33dbd329bfcbf4c8adb_legstr.webp"
+        },
+        {
+          "UnitName": "Advanced Construction Bot",
+          "UnitDescription": "Tech 2 Constructor",
+          "Building": "Legion Advanced Bot Lab",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bc8d3b298c6647d4a095_legack.webp"
+        },
+        {
+          "UnitName": "Phalanx",
+          "UnitDescription": "Shielded Riot Defence Bot",
+          "Building": "Legion Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c2ba92477131312f3df6_legshot.webp"
+        },
+        {
+          "UnitName": "Belcher",
+          "UnitDescription": "Napalm / Skirmish Bot. Incendiary area denial",
+          "Building": "Legion Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bedc6538384639d9e96a_legbart.webp"
+        },
+        {
+          "UnitName": "Telchine",
+          "UnitDescription": "Advanced Amphibious Assault Bot/Coast Guard",
+          "Building": "Amphibious Complex | Legion Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bd405f2441b499b0bf73_legamph.webp"
+        },
+        {
+          "UnitName": "Commander (Decoy) ",
+          "UnitDescription": "Decoy Commander. Can capture, build T1 and repair",
+          "Building": "Amphibious Complex | Legion Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9ce3a01d86c8e4c991c11_legdecom.webp"
+        },
+        {
+          "UnitName": "Thanatos",
+          "UnitDescription": "Salvo Rocket Bot",
+          "Building": "Legion Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c0b17be5429dfd202181_leghrk.webp"
+        },
+        {
+          "UnitName": "Aquilon",
+          "UnitDescription": "Heavy Amphibious Anti-Air Bot",
+          "Building": "Amphibious Complex | Legion Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bca97e9604b607919de9_legadvaabot.webp"
+        },
+        {
+          "UnitName": "Arquebus",
+          "UnitDescription": "All-Terrain Heavy Railgun",
+          "Building": "Legion Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c328545d5313be7db41d_legsrail.webp"
+        },
+        {
+          "UnitName": "Incinerator",
+          "UnitDescription": "(barely) Mobile Heavy Heat Ray",
+          "Building": "Legion Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c0bb1cd6090a6f7691fd_leginc.webp"
+        }
+      ]
+    }
+  ],
+  "Vehicles": [
+    {
+      "Tier_1": [
+        {
+          "UnitName": "Wheelie",
+          "UnitDescription": "Light Scout Vehicle",
+          "Building": "Legion Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c29ffe8bee5a6f49d37d_legscout.webp"
+        },
+        {
+          "UnitName": "Sapper",
+          "UnitDescription": "Stealthy Minelayer / Minesweeper. Can build Dragon's Teeth and Cameras",
+          "Building": "Legion Vehicle Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c1a6288e5d8081ae9ebc_legmlv.webp"
+        },
+        {
+          "UnitName": "Alaris",
+          "UnitDescription": "Fast Assault Tank",
+          "Building": "Legion Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c07a190f044cc86271c2_leghades.webp"
+        },
+        {
+          "UnitName": "Legion Construction Vehicle",
+          "UnitDescription": "Tech 1 Constructor",
+          "Building": "Legion Vehicle Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bf445c5fc4f0d687d0cb_legcv.webp"
+        },
+        {
+          "UnitName": "Otter",
+          "UnitDescription": "Amphibious Construction Vehicle",
+          "Building": "Legion Vehicle Plant | Amphibious Complex",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c2462e25a05823935859_legotter.webp"
+        },
+        {
+          "UnitName": "Helios",
+          "UnitDescription": "Skirmisher Tank",
+          "Building": "Legion Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c0941cd6090a6f767d26_leghelios.webp"
+        },
+        {
+          "UnitName": "Cetus",
+          "UnitDescription": "Light Amphibious Tank",
+          "Building": "Legion Vehicle Plant | Amphibious Complex",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bd56aac0bd5e846b7d7c_legamphtank.webp"
+        },
+        {
+          "UnitName": "Lance",
+          "UnitDescription": "Long-range Skirmisher / Anti-air",
+          "Building": "Legion Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c27001d86c8e4c9637cc_legrail.webp"
+        },
+        {
+          "UnitName": "Barrage",
+          "UnitDescription": "Napalm Artillery",
+          "Building": "Legion Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bed26538384639d9e379_legbar.webp"
+        },
+        {
+          "UnitName": "Decurion",
+          "UnitDescription": "Armored Assault Tank",
+          "Building": "Legion Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c05dc66f60041e951f0b_leggat.webp"
+        }
+      ]
+    },
+    {
+      "Tier_2": [
+        {
+          "UnitName": "Cicero",
+          "UnitDescription": "Mobile Radar Jammer Vehicle",
+          "Building": "Legion Advanced Vehicle Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2e2baa90cd719a44d5ac6_legavjam.webp"
+        },
+        {
+          "UnitName": "Pheme",
+          "UnitDescription": "Mobile Radar Vehicle",
+          "Building": "Legion Advanced Vehicle Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2e2e3d331290cf63097ad_legavrad.webp"
+        },
+        {
+          "UnitName": "Aceso",
+          "UnitDescription": "Light Construction Buggy",
+          "Building": "Legion Advanced Vehicle Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bcd97e9604b60791b564_legafcv.webp"
+        },
+        {
+          "UnitName": "Quickshot",
+          "UnitDescription": "Fast Burst-Fire Raiding Vehicle",
+          "Building": "Legion Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c1cb5e1d6ce9cd6fc8bd_legmrv.webp"
+        },
+        {
+          "UnitName": "Mantis",
+          "UnitDescription": "Mobile Drone Carrier Truck (Drones cost 15m 500E each)",
+          "Building": "Legion Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c38f34d59ffda3d60961_legvcarry.webp"
+        },
+        {
+          "UnitName": "Gladiator",
+          "UnitDescription": "Medium Burst-Fire Skirmisher Tank",
+          "Building": "Legion Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9be738ec30725a9f00527_legaskirmtank.webp"
+        },
+        {
+          "UnitName": "Cleaver",
+          "UnitDescription": "Mobile Cluster Artillery Vehicle",
+          "Building": "Legion Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bd367e7ac52b1a4f8580_legamcluster.webp"
+        },
+        {
+          "UnitName": "Charon",
+          "UnitDescription": "Anti-Air Minigun Truck",
+          "Building": "Legion Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c3a2760ed9e932bc3f66_legvflak.webp"
+        },
+        {
+          "UnitName": "Advanced Construction Vehicle",
+          "UnitDescription": "Tech 2 Constructor",
+          "Building": "Legion Advanced Vehicle Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bc9e5fd365a13bcb7d99_legacv.webp"
+        },
+        {
+          "UnitName": "Triton",
+          "UnitDescription": "Heavy Convertible Tank/Boat",
+          "Building": "Amphibious Complex | Legion Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c00897df73794aaaf2fd_legfloat.webp"
+        },
+        {
+          "UnitName": "Boreas",
+          "UnitDescription": "Stealthy Mobile Rocket Launcher",
+          "Building": "Legion Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bebf6538384639d9dad2_legavroc.webp"
+        },
+        {
+          "UnitName": "Hera",
+          "UnitDescription": "Mobile Anti-nuke Vehicle",
+          "Building": "Legion Advanced Vehicle Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9be99a6c29dd398724a18_legavantinuke.webp"
+        },
+        {
+          "UnitName": "Prometheus",
+          "UnitDescription": "Heavy Assault Heatray Tank",
+          "Building": "Legion Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c8eaf3cd11321926ed76_legaheattank.webp"
+        },
+        {
+          "UnitName": "Medusa",
+          "UnitDescription": "Heavy Long-Range Salvo Rocket Tank",
+          "Building": "Legion Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c1563fc04afe6f2fe045_legmed.webp"
+        },
+        {
+          "UnitName": "Inferno",
+          "UnitDescription": "Long-Range Burst-Fire Napalm Artillery Vehicle",
+          "Building": "Legion Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c0c584045044c2401024_leginf.webp"
+        }
+      ]
+    }
+  ],
+  "Aircraft": [
+    {
+      "Tier_1": [
+        {
+          "UnitName": "Legion Construction Aircraft",
+          "UnitDescription": "Tech 1 Constructor",
+          "Building": "Legion Drone Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9beeea50833fc30aa743a_legca.webp"
+        },
+        {
+          "UnitName": "Noctua",
+          "UnitDescription": "Fighter / Scout Drone",
+          "Building": "Legion Drone Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bff4678878a0bd2a710c_legfig.webp"
+        },
+        {
+          "UnitName": "Martyr",
+          "UnitDescription": "Self-destructs to deal explosive damage to target area",
+          "Building": "Legion Drone Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c0f61e536ba745da282f_legkam.webp"
+        },
+        {
+          "UnitName": "Aeolus",
+          "UnitDescription": "Light Air Transport",
+          "Building": "Legion Drone Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c1441cd6090a6f76edfb_leglts.webp"
+        },
+        {
+          "UnitName": "Astrapios",
+          "UnitDescription": "Seaplane Fighter",
+          "Building": "Legion Offshore Seaplane Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c2fab3dbcd6c054baeab_legspfighter.webp"
+        },
+        {
+          "UnitName": "Blindfold",
+          "UnitDescription": "Drops a Juno Bomb to Remove Mines, Scouts, Radars, and Jammers",
+          "Building": "Legion Drone Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bf12e2217eeb67db5aa0_legcib.webp"
+        },
+        {
+          "UnitName": "Mosquito",
+          "UnitDescription": "Light Gunship with Stockpiling Rockets",
+          "Building": "Legion Drone Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c1c27be5429dfd20755a_legmos.webp"
+        },
+        {
+          "UnitName": "Okeanos",
+          "UnitDescription": "Radar/Sonar Seaplane",
+          "Building": "Legion Offshore Seaplane Platform",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2e454f34d77df79997d66_legspradarsonarplane.webp"
+        },
+        {
+          "UnitName": "Construction Seaplane",
+          "UnitDescription": "Tech 1 Constructor",
+          "Building": "Legion Offshore Seaplane Platform",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c2f1156b41059c076e29_legspcon.webp"
+        },
+        {
+          "UnitName": "Hippotes",
+          "UnitDescription": "Heavy Transport",
+          "Building": "Legion Drone Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9b7075c5e1ebd5e10e032_legatrans.webp"
+        },
+        {
+          "UnitName": "Ladon",
+          "UnitDescription": "Torpedo Seaplane Gunship",
+          "Building": "Legion Offshore Seaplane Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c31e28fc8fbd05b3a85b_legsptorpgunship.webp"
+        },
+        {
+          "UnitName": "Pyrphoros",
+          "UnitDescription": "Seaplane Bomber",
+          "Building": "Legion Offshore Seaplane Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c2df156b41059c0761f6_legspbomber.webp"
+        },
+        {
+          "UnitName": "Hecatoncheir",
+          "UnitDescription": "Airborne Drone Carrier",
+          "Building": "Legion Offshore Seaplane Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2e42b674148e5ac79e547_legspcarrier.webp"
+        },
+        {
+          "UnitName": "Enyo",
+          "UnitDescription": "Riot Cannon Seaplane Gunship",
+          "Building": "Legion Offshore Seaplane Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c315ae1f0fa3443a3cb5_legspsurfacegunship.webp"
+        }
+      ]
+    },
+    {
+      "Tier_2": [
+        {
+          "UnitName": "Venator",
+          "UnitDescription": "Rapid-Response Flak Interceptor Fighter",
+          "Building": "Legion Advanced Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c398545d5313be7dbea3_legvenator.webp"
+        },
+        {
+          "UnitName": "Ajax",
+          "UnitDescription": "Defensive Air-Superiority Fighter",
+          "Building": "Legion Advanced Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bce3396f7b55bfa5136f_legafigdef.webp"
+        },
+        {
+          "UnitName": "Whisper",
+          "UnitDescription": "Radar / Sonar Plane",
+          "Building": "Legion Advanced Aircraft Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2e47d411fa691d6d73b29_legwhisper.webp"
+        },
+        {
+          "UnitName": "Harbinger",
+          "UnitDescription": "Linear Minelayer Bomber",
+          "Building": "Legion Advanced Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c19d6766e7da1c9a53d1_legmineb.webp"
+        },
+        {
+          "UnitName": "Advanced Construction Aircraft",
+          "UnitDescription": "Tech 2 Constructor",
+          "Building": "Legion Advanced Aircraft Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bc790046569257a80c6d_legaca.webp"
+        },
+        {
+          "UnitName": "Phoenix",
+          "UnitDescription": "Heavy Assault Heatray Bomber",
+          "Building": "Legion Advanced Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c259bd329bfcbf4c0ab7_legphoenix.webp"
+        },
+        {
+          "UnitName": "Aesacus",
+          "UnitDescription": "Torpedo Bomber",
+          "Building": "Legion Advanced Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9be898ec30725a9f010e3_legatorpbomber.webp"
+        },
+        {
+          "UnitName": "Stronghold",
+          "UnitDescription": "Hybrid Heavy Transport Gunship. Armed with a close-range aerial shotgun",
+          "Building": "Legion Advanced Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c3463b22260818c1eb58_legstronghold.webp"
+        },
+        {
+          "UnitName": "Tyrannus",
+          "UnitDescription": "Flying Kinetic Multi-Weapon Fortress",
+          "Building": "Legion Advanced Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2e3369afd9e16521d8f46_legfort.webp"
+        }
+      ]
+    }
+  ],
+  "Sea": [
+    {
+      "Tier_1": [
+        {
+          "UnitName": "Hippocampus",
+          "UnitDescription": "Light Assault Corvette",
+          "Building": "Legion Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c22a2e25a05823934956_legnavyscout.webp"
+        },
+        {
+          "UnitName": "Construction Ship",
+          "UnitDescription": "Constructs Tech 1 Naval Structures",
+          "Building": "Legion Shipyard",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c206d0c6d8904655b835_legnavyconship.webp"
+        },
+        {
+          "UnitName": "Dionysus",
+          "UnitDescription": "Resurrection Submarine",
+          "Building": "Legion Shipyard",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c22139f81e363a7914a4_legnavyrezsub.webp"
+        },
+        {
+          "UnitName": "Iapetus",
+          "UnitDescription": "Anti-Air & Radar Support Ship",
+          "Building": "Legion Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2e3b02c140671e5da99df_legnavyaaship.webp"
+        },
+        {
+          "UnitName": "Ketea",
+          "UnitDescription": "Combat Submarine",
+          "Building": "Legion Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c234ae1f0fa3443a091d_legnavysub.webp"
+        },
+        {
+          "UnitName": "Argonaut",
+          "UnitDescription": "Torpedo Launcher Frigate",
+          "Building": "Legion Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c21882a7501bc61ae6d0_legnavyfrigate.webp"
+        },
+        {
+          "UnitName": "Syracusia",
+          "UnitDescription": "Hybrid Heatray-Drone Carrier Destroyer",
+          "Building": "Legion Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c20f5e1d6ce9cd6fe0c2_legnavydestro.webp"
+        },
+        {
+          "UnitName": "Octeres",
+          "UnitDescription": "Long-Range Cluster Artillery Vessel",
+          "Building": "Legion Shipyard",
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c1fc7be5429dfd20a1e4_legnavyartyship.webp"
+        }
+      ]
+    },
+    {
+      "Tier_2": [
+        {
+          "UnitName": "Artifex",
+          "UnitDescription": "Naval Engineer",
+          "Building": "Legion Advanced Shipyard",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9be17fa36d30b9ed0d917_leganavyengineer.webp"
+        },
+        {
+          "UnitName": "Dolus",
+          "UnitDescription": "Hybrid Radar & Jammer Ship",
+          "Building": "Legion Advanced Shipyard",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2d9a8658fd4fba4e8a69a_leganavyradjamship.webp"
+        },
+        {
+          "UnitName": "Leocampus",
+          "UnitDescription": "Anti-Swarm Ship",
+          "Building": "Legion Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bddb6342184d6d359ebe_leganavyantiswarm.webp"
+        },
+        {
+          "UnitName": "Advanced Construction Submarine",
+          "UnitDescription": "Tech 2 Constructor",
+          "Building": "Legion Advanced Shipyard",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9be06aac0bd5e846bdee8_leganavyconsub.webp"
+        },
+        {
+          "UnitName": "Thalassa",
+          "UnitDescription": "Gatling Gun Cruiser",
+          "Building": "Legion Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9be0e4f3bea94b1768965_leganavycruiser.webp"
+        },
+        {
+          "UnitName": "Notus",
+          "UnitDescription": "Advanced Anti-Air Gatling Flak Ship",
+          "Building": "Legion Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bdc86342184d6d3598f5_leganavyaaship.webp"
+        },
+        {
+          "UnitName": "Architeuthis",
+          "UnitDescription": "Fast Assault Submarine",
+          "Building": "Legion Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bdfdd46de055f192848e_leganavybattlesub.webp"
+        },
+        {
+          "UnitName": "Hecate",
+          "UnitDescription": "Anti-nuke Drone Carrier Support Ship",
+          "Building": "Legion Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2e1c028b6fb453c6ede88_leganavyantinukecarrier.webp"
+        },
+        {
+          "UnitName": "Sphyrna",
+          "UnitDescription": "Long-Range Battle Submarine",
+          "Building": "Legion Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9be2a1b9865654188edf4_leganavyheavysub.webp"
+        },
+        {
+          "UnitName": "Ultor",
+          "UnitDescription": "Missile Cruiser",
+          "Building": "Legion Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2e23f3f692f7e86b78f2a_leganavymissileship.webp"
+        },
+        {
+          "UnitName": "Scylla",
+          "UnitDescription": "Hybrid Cross-Terrain Battleship",
+          "Building": "Legion Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bdf4aac0bd5e846bd4e4_leganavybattleship.webp"
+        },
+        {
+          "UnitName": "Corinth",
+          "UnitDescription": "Long Range Cluster Plasma Bombardment Vessel",
+          "Building": "Legion Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2e1eba90cd719a44cce12_leganavyartyship.webp"
+        },
+        {
+          "UnitName": "Neptune",
+          "UnitDescription": "Naval Combat Flagship",
+          "Building": "Legion Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2e21521856a0e80d20074_leganavyflagship.webp"
+        }
+      ]
+    }
+  ],
+  "Hover": [
+    {
+      "Tier_1": [
+        {
+          "UnitName": "Glaucus",
+          "UnitDescription": "Fast Attack Hovercraft",
+          "Building": "Legion Offshore Hovercraft Platform | Hovercraft Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c2b0bd329bfcbf4c3b67_legsh.webp"
+        },
+        {
+          "UnitName": "Construction Hovercraft",
+          "UnitDescription": "Tech 1 Constructor",
+          "Building": "Legion Offshore Hovercraft Platform | Hovercraft Platform",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bf09eafa573ef7daf977_legch.webp"
+        },
+        {
+          "UnitName": "Salacia",
+          "UnitDescription": "Hovercraft Rocket Launcher",
+          "Building": "Legion Offshore Hovercraft Platform | Hovercraft Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c17a288e5d8081ae8632_legmh.webp"
+        },
+        {
+          "UnitName": "Alpheus",
+          "UnitDescription": "Anti-Air Hovercraft",
+          "Building": "Legion Offshore Hovercraft Platform | Hovercraft Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bd00f625a4c881de9e34_legah.webp"
+        },
+        {
+          "UnitName": "Nereus",
+          "UnitDescription": "Hovertank",
+          "Building": "Legion Offshore Hovercraft Platform | Hovercraft Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9c23dbd329bfcbf4bfb2a_legner.webp"
+        },
+        {
+          "UnitName": "Cardea",
+          "UnitDescription": "Shotgun Hovertank",
+          "Building": "Legion Offshore Hovercraft Platform | Hovercraft Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69c9bef78393e58841985bef_legcar.webp"
+        }
+      ]
+    }
+  ]
+}

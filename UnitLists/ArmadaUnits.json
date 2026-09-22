@@ -1,0 +1,714 @@
+{
+  "Bots": [
+    {
+      "Tier_1": [
+
+        {
+          "UnitName": "Tick",
+          "UnitDescription": "Fast Scout Bot",
+          "Building": "Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca505e86994a6af55961cd_armflea.webp"
+        },
+        {
+          "UnitName": "Pawn",
+          "UnitDescription": "Fast Infrantry Bot",
+          "Building": "Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca535d1247669f47c7ad38_armpw.webp"
+        },
+        {
+          "UnitName": "Construction Bot",
+          "UnitDescription": "Tech 1 Constructor",
+          "Building": "Bot Lab",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4e9cca25c6e60fa431e4_armck.webp"
+        },
+        {
+          "UnitName": "Rocketeer",
+          "UnitDescription": "Rocket Bot - good vs. static defenses",
+          "Building": "Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca53a9b5cbcfed04d73eee_armrock.webp"
+        },
+        {
+          "UnitName": "Crossbow",
+          "UnitDescription": "Amphibious Anti-air Bot",
+          "Building": "Bot Lab | Amphibious Complex",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca51693bbb3ab7677b03d7_armjeth.webp"
+        },
+        {
+          "UnitName": "Mace",
+          "UnitDescription": "Light Plasma Bot",
+          "Building": "Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca50fb945d1bd818857006_armham.webp"
+        },
+        {
+          "UnitName": "Lazarus",
+          "UnitDescription": "Stealthy Rez / Repair / Reclaim Bot",
+          "Building": "Bot Lab",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca5390f0c852dbd32491a3_armrectr.webp"
+        },
+        {
+          "UnitName": "Centurion",
+          "UnitDescription": "Anti-Swarm Bot",
+          "Building": "Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca55d9fee1992f3010aaf3_armwar.webp"
+        }
+      ]
+    },
+    {
+      "Tier_2": [
+        {
+          "UnitName": "Tumbleweed",
+          "UnitDescription": "Amphibious Rolling Bomb",
+          "Building": "Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca559b11e6aa81a1bfa48c_armvader.webp"
+        },
+        {
+          "UnitName": "Smuggler",
+          "UnitDescription": "Radar Jammer Bot",
+          "Building": "Advanced Bot Lab | Butler (Advanced Bot)",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2dc0399eca648dd9a3670_armaser.webp"
+        },
+        {
+          "UnitName": "Compass",
+          "UnitDescription": "Radar Bot",
+          "Building": "Advanced Bot Lab | Butler (Advanced Bot)",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2dd05658fd4fba4ea2f3b_armmark.webp"
+        },
+        {
+          "UnitName": "Ghost",
+          "UnitDescription": "Radar-Invisible Spy Bot. Can Self-Destruct and Reclaim Enemy Units",
+          "Building": "Advanced Bot Lab",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2d4bbc0cd6365fbeff2a3_armspy.webp"
+        },
+        {
+          "UnitName": "Sprinter",
+          "UnitDescription": "Fast Raider",
+          "Building": "Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4fab8f181bde4462c2c1_armfast.webp"
+        },
+        {
+          "UnitName": "Butler",
+          "UnitDescription": "Fast Assist / Repair Bot",
+          "Building": "Advanced Bot Lab",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4f9e260516c37cc7bed5_armfark.webp"
+        },
+        {
+          "UnitName": "Webber",
+          "UnitDescription": "All-Terrain EMP and Reclaiming Spider",
+          "Building": "Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca548f65f453dc433f5288_armspid.webp"
+        },
+        {
+          "UnitName": "Platypus",
+          "UnitDescription": "Amphibious Bot",
+          "Building": "Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4d5278b0bbdbfa40359d_armamph.webp"
+        },
+        {
+          "UnitName": "Hound",
+          "UnitDescription": "Mortar / Skirmish Bot",
+          "Building": "Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca502a662bdbd1a4d1bdaf_armfido.webp"
+        },
+        {
+          "UnitName": "Welder",
+          "UnitDescription": "Aassault Bot",
+          "Building": "Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca55fff4f07307254ead86_armzeus.webp"
+        },
+        {
+          "UnitName": "Recluse",
+          "UnitDescription": "All-Terrain Rocket Spider",
+          "Building": "Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca549d31ddb30e8dcbe971_armsptk.webp"
+        },
+        {
+          "UnitName": "Advanced Construction Bot",
+          "UnitDescription": "Tech 2 Constructor",
+          "Building": "Advanced Bot Lab",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4cb09173eda2551d53d5_armack.webp"
+        },
+        {
+          "UnitName": "Archangel",
+          "UnitDescription": "Advanced Amphibious Anti-Air Bot",
+          "Building": "Advanced Bot Lab | Amphibious Complex",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4c7a8eddae4dbbfdbf51_armaak.webp"
+        },
+        {
+          "UnitName": "Gunslinger",
+          "UnitDescription": "Skirmish Bot. Auto-Repair. Range increases with experience",
+          "Building": "Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca52446a34ccecd2cf5f78_armmav.webp"
+        },
+        {
+          "UnitName": "Sharpshooter",
+          "UnitDescription": "Sniper Bot. Build Pinpointers to enable Radar-based shooting",
+          "Building": "Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2d53d674148e5ac774272_armsnipe.webp"
+        },
+        {
+          "UnitName": "Commander (Decoy) ",
+          "UnitDescription": "Decoy Commander. Can capture, build T1 and repair",
+          "Building": "Advanced Bot Lab | Amphibious Complex",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4f2c5a5d01dbf45e539a_armdecom.webp"
+        },
+        {
+          "UnitName": "Umbrella",
+          "UnitDescription": "Mobile All-Terrain Anti-Nuke",
+          "Building": "Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca53e4d31b7d4fe5871448_armscab.webp"
+        },
+        {
+          "UnitName": "Fatboy",
+          "UnitDescription": "Heavy Plasma Bot",
+          "Building": "Advanced Bot Lab",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4fd1cbe6c1beedd0f6f7_armfboy.webp"
+        }
+      ]
+    }
+  ],
+  "Vehicles": [
+    {
+      "Tier_1": [
+        {
+          "UnitName": "Rover",
+          "UnitDescription": "Light Scout Vehicle",
+          "Building": "Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4fc241a979d153d4297b_armfav.webp"
+        },
+        {
+          "UnitName": "Groundhog",
+          "UnitDescription": "Stealthy Minelayer / Minesweeper",
+          "Building": "Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca3ea278b0bbdbfa3d1eba_armmlv.webp"
+        },
+        {
+          "UnitName": "Blitz",
+          "UnitDescription": "Fast Assault Tank",
+          "Building": "Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca5052e6f933a5950786b3_armflash.webp"
+        },
+        {
+          "UnitName": "Shellshocker",
+          "UnitDescription": "Light Artillery Vehicle",
+          "Building": "Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2e4b13f692f7e86b91028_armart.webp"
+        },
+        {
+          "UnitName": "Construction Vehicle",
+          "UnitDescription": "Tech 1 Constructor",
+          "Building": "Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4f10f6a619c99d73b551_armcv.webp"
+        },
+        {
+          "UnitName": "Beaver",
+          "UnitDescription": "Amphibious Construction Vehicle",
+          "Building": "Amphibious Complex",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4e37f436979d645dfb30_armbeaver.webp"
+        },
+        {
+          "UnitName": "Whistler",
+          "UnitDescription": "Missile Truck",
+          "Building": "Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca53ccd1ce72b2a189f6c2_armsam.webp"
+        },
+        {
+          "UnitName": "Pincer",
+          "UnitDescription": "Light Amphibious Tank",
+          "Building": "Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca531edba8eaed49e49674_armpincer.webp"
+        },
+        {
+          "UnitName": "Stout",
+          "UnitDescription": "Medium Assault Tank",
+          "Building": "Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca54c2d31b7d4fe58792a8_armstump.webp"
+        },
+        {
+          "UnitName": "Janus",
+          "UnitDescription": "Twin Medium Rocket Launcher",
+          "Building": "Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca515c8f181bde4463c1b2_armjanus.webp"
+        }
+      ]
+    },
+    {
+      "Tier_2": [
+        {
+          "UnitName": "Umbra",
+          "UnitDescription": "Radar Jammer Vehicle",
+          "Building": "Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2dcaeaa730bbad645282b_armjam.webp"
+        },
+        {
+          "UnitName": "Prophet",
+          "UnitDescription": "Radar Vehicle",
+          "Building": "Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2dddf411fa691d6d5bc62_armseer.webp"
+        },
+        {
+          "UnitName": "Gremlin",
+          "UnitDescription": "Stealth Tank",
+          "Building": "Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2d7e190578adea1dcf3b3_armgremlin.webp"
+        },
+        {
+          "UnitName": "Consul",
+          "UnitDescription": "Combat Engineer",
+          "Building": "Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4ed5b5cbcfed04d4313f_armconsul.webp"
+        },
+        {
+          "UnitName": "Mauser",
+          "UnitDescription": "Mobile Artillery",
+          "Building": "Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca5724fee1992f301142cb_armmart.webp"
+        },
+        {
+          "UnitName": "Jaguar",
+          "UnitDescription": "Lightning Tank",
+          "Building": "Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca51b5d8ff18540c98b2fa_armlatnk.webp"
+        },
+        {
+          "UnitName": "Shredder",
+          "UnitDescription": "Anti-Air Flak Vehicle",
+          "Building": "Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca55f287611496cbe278c4_armyork.webp"
+        },
+        {
+          "UnitName": "Advanced Construction Vehicle",
+          "UnitDescription": "Tech 2 Constructor",
+          "Building": "Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4ccdf99a235d4b6a67d7_armacv.webp"
+        },
+        {
+          "UnitName": "Turtle",
+          "UnitDescription": "Heavy Amphibious Tank",
+          "Building": "Advanced Vehicle Plant | Amphibious Complex",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4ee09710164d15f89bb4_armcroc.webp"
+        },
+        {
+          "UnitName": "Ambassador",
+          "UnitDescription": "Stealthy Rocket Launcher - good vs. static defense",
+          "Building": "Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca525b8f181bde44645f6b_armmerl.webp"
+        },
+        {
+          "UnitName": "Bull",
+          "UnitDescription": "Heavy Assault Tank",
+          "Building": "Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca56adc22f1697aaa3053d_armbull.webp"
+        },
+        {
+          "UnitName": "Starlight",
+          "UnitDescription": "Mobile Tachyon Weapon",
+          "Building": "Advanced Vehicle Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca5209a513c998deea90ff_armmanni.webp"
+        }
+      ]
+    }
+  ],
+  "Aircraft": [
+    {
+      "Tier_1": [
+        {
+          "UnitName": "Blink",
+          "UnitDescription": "Scout",
+          "Building": "Aircraft Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2dd595d5b0dc34f4c621c_armpeep.webp"
+        },
+        {
+          "UnitName": "Stork",
+          "UnitDescription": "Light Air Transport",
+          "Building": "Aircraft Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4dea4359c36832db565c_armatlas.webp"
+        },
+        {
+          "UnitName": "Falcon",
+          "UnitDescription": "Fighter",
+          "Building": "Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca50366a34ccecd2ceb4b5_armfig.webp"
+        },
+        {
+          "UnitName": "Cyclone",
+          "UnitDescription": "Seaplane Swarmer",
+          "Building": "Seaplane Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca542d8f181bde4465b089_armsfig.webp"
+        },
+        {
+          "UnitName": "Construction Aircraft",
+          "UnitDescription": "Tech 1 Constructor",
+          "Building": "Aircraft Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4e74f99a235d4b6b70eb_armca.webp"
+        },
+        {
+          "UnitName": "Horizon",
+          "UnitDescription": "Advanced Radar / Sonar Plane",
+          "Building": "Seaplane Platform",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2de07a75602953f05bc65_armsehak.webp"
+        },
+        {
+          "UnitName": "Banshee",
+          "UnitDescription": "Light Gunship",
+          "Building": "Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca51848f181bde4463de37_armkam.webp"
+        },
+        {
+          "UnitName": "Construction Seaplane",
+          "UnitDescription": "Tech 1 Constructor",
+          "Building": "Seaplane Platform",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4f04d267363009bb9da5_armcsa.webp"
+        },
+        {
+          "UnitName": "Stormbringer",
+          "UnitDescription": "Bomber",
+          "Building": "Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca550aedd6a11aa74a29cb_armthund.webp"
+        },
+        {
+          "UnitName": "Osprey",
+          "UnitDescription": "Heavy Transport",
+          "Building": "Aircraft Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca5134a513c998deea33c9_armhvytrans.webp"
+        },
+        {
+          "UnitName": "Sabre",
+          "UnitDescription": "Seaplane Gunship",
+          "Building": "Seaplane Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca53c0f13062efb1f3e8fa_armsaber.webp"
+        },
+        {
+          "UnitName": "Tsunami",
+          "UnitDescription": "Seaplane Bomber",
+          "Building": "Seaplane Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca53d6b5cbcfed04d7594c_armsb.webp"
+        },
+        {
+          "UnitName": "Puffin",
+          "UnitDescription": "Torpedo Gunship",
+          "Building": "Seaplane Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca53fc8fde47470fd1062e_armseap.webp"
+        }
+      ]
+    },
+    {
+      "Tier_2": [
+        {
+          "UnitName": "Highwind",
+          "UnitDescription": "Stealth Fighter",
+          "Building": "Advanced Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca510d260516c37cc814d7_armhawk.webp"
+        },
+        {
+          "UnitName": "Oracle",
+          "UnitDescription": "Radar / Sonar Plane",
+          "Building": "Advanced Aircraft Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2dc2b1e4b960dbb0787bf_armawac.webp"
+        },
+        {
+          "UnitName": "Blizzard",
+          "UnitDescription": "Strategic Bomber",
+          "Building": "Advanced Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca5335eb91e5c7ab701438_armpnix.webp"
+        },
+        {
+          "UnitName": "Roughneck",
+          "UnitDescription": "Gunship",
+          "Building": "Advanced Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4e528eddae4dbbfe7017_armbrawl.webp"
+        },
+        {
+          "UnitName": "Abductor",
+          "UnitDescription": "Stealthy Armed Heavy Transport",
+          "Building": "INSERT",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4f43f436979d645e4d3b_armdfly.webp"
+        },
+        {
+          "UnitName": "Advanced Construction Aircraft",
+          "UnitDescription": "Tech 2 Constructor",
+          "Building": "Advanced Aircraft Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4ca447f56cf8942a3526_armaca.webp"
+        },
+        {
+          "UnitName": "Cormorant",
+          "UnitDescription": "Torpedo Bomber",
+          "Building": "Advanced Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca51a8945d1bd81885d79c_armlance.webp"
+        },
+        {
+          "UnitName": "Stiletto",
+          "UnitDescription": "EMP Bomber",
+          "Building": "Advanced Aircraft Plant",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca54b63bbb3ab7677c264b_armstil.webp"
+        },
+        {
+          "UnitName": "Hornet",
+          "UnitDescription": "Rapid Assault Gunship",
+          "Building": "Advanced Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4e46b5cbcfed04d3fe39_armblade.webp"
+        },
+        {
+          "UnitName": "Liche",
+          "UnitDescription": "Atomic Bomber",
+          "Building": "Advanced Aircraft Plant",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca51c065f453dc433ea8e2_armliche.webp"
+        }
+      ]
+    }
+  ],
+  "Sea": [
+    {
+      "Tier_1": [
+        {
+          "UnitName": "Skater",
+          "UnitDescription": "Stealthy Patrol Boat / Light Anti Air / Sonar",
+          "Building": "Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2dd83a90cd719a44ac827_armpt.webp"
+        },
+        {
+          "UnitName": "Dolphin",
+          "UnitDescription": "Fast Assault Corvette",
+          "Building": "Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4f1d8f181bde44628bd0_armdecade.webp"
+        },
+        {
+          "UnitName": "Construction Ship",
+          "UnitDescription": "Tech 1 Constructor",
+          "Building": "Shipyard",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4ef8bd9797db17fafb2b_armcs.webp"
+        },
+        {
+          "UnitName": "Grim Reaper",
+          "UnitDescription": "Resurrection Sub",
+          "Building": "Shipyard",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca538241a979d153d67e3f_armrecl.webp"
+        },
+        {
+          "UnitName": "Ellysaw",
+          "UnitDescription": "Assault Frigate",
+          "Building": "Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca5342dba8eaed49e4b35c_armpship.webp"
+        },
+        {
+          "UnitName": "Eel",
+          "UnitDescription": "Submarine",
+          "Building": "Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca54cdd31b7d4fe5879a49_armsub.webp"
+        },
+        {
+          "UnitName": "Corsair",
+          "UnitDescription": "Destroyer",
+          "Building": "Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca53b5f13062efb1f3e3ee_armroy.webp"
+        }
+      ]
+    },
+    {
+      "Tier_2": [
+        {
+          "UnitName": "Voyager",
+          "UnitDescription": "Naval Engineer",
+          "Building": "Advanced Shipyard",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca52a7eb91e5c7ab6fd8e6_armmls.webp"
+        },
+        {
+          "UnitName": "Bermuda",
+          "UnitDescription": "Radar Jammer Ship",
+          "Building": "Advanced Shipyard",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2de321e4b960dbb08d2fe_armsjam.webp"
+        },
+        {
+          "UnitName": "Maelstrom",
+          "UnitDescription": "Fast Raider/Skirmisher",
+          "Building": "INSERT",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca51dad267363009bc072b_armlship.webp"
+        },
+        {
+          "UnitName": "Advanced Construction Sub",
+          "UnitDescription": "Tech 2 Constructor",
+          "Building": "Advanced Shipyard",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4cbe77778df9fe1207ee_armacsub.webp"
+        },
+        {
+          "UnitName": "Barracuda",
+          "UnitDescription": "Fast Assault Submarine",
+          "Building": "Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca54d93bbb3ab7677c38fa_armsubk.webp"
+        },
+        {
+          "UnitName": "Dragonslayer",
+          "UnitDescription": "Anti-Air Ship",
+          "Building": "Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4c96e76f466f79fffd5e_armaas.webp"
+        },
+        {
+          "UnitName": "Paladin",
+          "UnitDescription": "Cruiser",
+          "Building": "Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4eec65f453dc433dc458_armcrus.webp"
+        },
+        {
+          "UnitName": "Haven",
+          "UnitDescription": "Mobile Anti-Nuke, Generator, and Radar/Sonar",
+          "Building": "Advanced Shipyard",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2db9e1e4b960dbb073873_armantiship.webp"
+        },
+        {
+          "UnitName": "Serpent",
+          "UnitDescription": "Long-Range Battle Submarine",
+          "Building": "Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca5420f4f07307254e75d5_armserp.webp"
+        },
+        {
+          "UnitName": "Longbow",
+          "UnitDescription": "Missile Cruiser",
+          "Building": "Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2dd2f5d5b0dc34f4c490e_armmship.webp"
+        },
+        {
+          "UnitName": "Dreadnought",
+          "UnitDescription": "Battleship",
+          "Building": "Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4e1f65e1c8fdc3804d0d_armbats.webp"
+        },
+        {
+          "UnitName": "Epoch",
+          "UnitDescription": "Flagship",
+          "Building": "Advanced Shipyard",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69d2dc5af42cfbe25954d39a_armepoch.webp"
+        }
+      ]
+    }
+  ],
+  "Hover": [
+    {
+      "Tier_1": [
+        {
+          "UnitName": "Seeker",
+          "UnitDescription": "Fast Attack Hovercraft",
+          "Building": "Hovercraft Platform | Naval Hovercraft Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca54398f181bde4465ba80_armsh.webp"
+        },
+        {
+          "UnitName": "Possum",
+          "UnitDescription": "Hovercraft Rocket Launcher",
+          "Building": "Hovercraft Platform | Naval Hovercraft Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca5277d06bb27c6ab86eb8_armmh.webp"
+        },
+        {
+          "UnitName": "Construction Hovercraft",
+          "UnitDescription": "Tech 1 Constructor",
+          "Building": "Hovercraft Platform | Naval Hovercraft Platform",
+          "CanAttack": 0,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4e8065f453dc433da85c_armch.webp"
+        },
+        {
+          "UnitName": "Sweeper",
+          "UnitDescription": "Anti-Air Hovercraft",
+          "Building": "Hovercraft Platform | Naval Hovercraft Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca4d01719a52896e055260_armah.webp"
+        },
+        {
+          "UnitName": "Crocodile",
+          "UnitDescription": "Hovertank",
+          "Building": "Hovercraft Platform | Naval Hovercraft Platform",
+          "CanAttack": 1,
+          "UnitImage": "https://cdn.prod.website-files.com/5c69241780da2a1dfc6caa4e/69ca56838fde47470fd2c78b_armanac.webp"
+        }
+      ]
+    }
+  ]
+}

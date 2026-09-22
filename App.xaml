@@ -1,0 +1,32 @@
+﻿<Application x:Class="BAR_Monobattles.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BAR_Monobattles"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+
+        <Style TargetType="TextBox" x:Key="UnitName">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="ExtraBlack"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="Opacity" Value="0.8"/>
+            <Setter Property="BorderBrush" Value="DarkGray"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="IsReadOnly" Value="True"/>
+        </Style>
+
+        <Style TargetType="TextBox" x:Key="UnitBuilding">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="Opacity" Value="0.9"/>
+            <Setter Property="BorderBrush" Value="DarkGray"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="IsReadOnly" Value="True"/>
+        </Style>
+
+    </Application.Resources>
+</Application>
